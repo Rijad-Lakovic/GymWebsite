@@ -1,0 +1,1173 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+}
+#weapper{
+    width: 100%;
+    margin: auto;
+}
+
+nav{
+    background-color: black;
+    width: 20%;
+    float: left;
+    text-align: center;
+
+}
+.gymlogo{
+    margin-top: 5%;
+    margin-bottom: 30%;
+}
+.navlist{
+    list-style: none;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.navlink{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5em;
+    text-decoration: none;
+    color: white;
+}
+.navlink:hover{
+    text-decoration: underline;
+    color: #3500a4;
+}
+
+.photo{
+    width: 80%;
+    float: left;
+    position: relative;
+}
+.main_photo{
+    width: 100%;
+}
+.slogan{
+    color: white;
+    font-size: 3em;
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+    bottom: 210px;
+    left: 20px;
+}
+.start{
+    color: #3500a4;
+    font-weight: bold;
+    font-size: 4em;
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+}
+.button{
+    background-color: #3500a4;
+    border: none;
+    border-radius: 40px;
+    width: 160px;
+    height: 80px;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+.signup{
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    clear: both;
+    width: auto;
+    height: 800px;
+}
+main{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.heading1{
+    margin-top: 5%;
+    color: #3500a4;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+}
+.programe{
+    text-align: left;
+    margin-top: 5%;
+    width: 80%;
+    margin-left: 15%;
+}
+.altheading{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5em;
+}
+.logo{
+    vertical-align: middle;
+    padding: 3%;
+}
+.text_heading{
+    color: #656565;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    margin: 3%;
+    text-align: left;
+}
+.photo_header{
+    width: 50%;
+    float: left;
+}
+
+.gray{
+    background-color: #656565;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.heading2{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+    text-align: center;
+}
+.text_heading2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+.pricing{
+    width: 100%;
+    height: auto;
+    background-color: #656565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer{
+    float: left;
+    width: 25%;
+    height: 800px;
+    margin: 2%;
+    background: rgb(255,28,48);
+    background: linear-gradient(180deg, rgba(255,28,48,0) 0%, rgba(53,0,164,1) 100%);
+    background-color: black;
+    position: relative;
+}
+.altheading2{
+    color: #3500a4;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5em;
+    margin-top: 10%;
+}
+.offer_list{
+    list-style-type: none;
+    color: white;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: bold;
+    margin-top: 15%;
+}
+.button1{
+    background-color: #3500a4;
+    border: none;
+    border-radius: 40px;
+    width: 160px;
+    height: 80px;
+    position: absolute;
+    bottom: 0px;
+    left: 30%;
+}
+
+
+.team{
+    clear: both;
+    width: 100%;
+    height: auto;
+}
+.heading3{
+    color: #3500a4;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 25px;
+}
+.text_heading3{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+}
+
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+.mySlides {
+    display: none;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 3em;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.prev{
+    left: 0;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: #656565
+}
+.text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #f2f2f2;
+    font-size: 2em;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-bottom: 50px !important;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+.location{
+    clear: both;
+    width: 100%;
+    height: auto;
+    background-color: #656565;
+    overflow: auto;
+}
+.map{
+    width: 50%;
+    height: auto;
+    float: left;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+footer{
+    clear: both;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    font-size: 1.5em;
+    padding: 0px;
+}
+.left{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: left;
+    margin-top: 15px;
+    margin-left: 3%;
+}
+.right{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: right;
+    margin-top: 60px;
+    margin-right: 3%;
+}
+.decoration{
+    text-decoration: none;
+    color: white;
+}
+.decoration:hover{
+    color: #3500a4;
+}
+.linklogo{
+    width: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+.form{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    display: block;
+    margin-top: 3%;
+}
+
+input[type=text],input[type=email],input[type=tel], select, textarea {
+    width: 50%; 
+    padding: 12px; 
+    border: 3px solid #3500a4; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    display: block;
+  }
+  
+
+input[type=submit] {
+    background-color: #3500a4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.container {
+    height: auto;
+    width: auto;
+    margin-left: 33%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    clear: both;
+}
+
+.nav1{
+    width: 100%;
+    height: auto;
+}
+.gymlogo1{
+    width: 8%;
+    float: left;
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+.navlist1{
+    list-style-type: none;
+    display: inline;
+}
+.navlink1{
+    color: #656565;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: left;
+    font-size: 2em;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.navlink1:hover{
+    color: #3500a4;
+}
+
+.programs_half{
+    width: 50%;
+    height: 800px;
+    float: left;
+    background-color: #656565;
+    text-align: center;
+}
+.programs_text{
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    margin: 5%;
+    line-height: 140%;
+}
+.programs_photo{
+    width: 100%;
+}
+.programs_half1{
+    width: 50%;
+    height: 800px;
+    float: left;
+    text-align: center;
+}
+.programs_text1{
+    color: #656565;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    margin: 5%;
+    text-align: center;
+    line-height: 140%;
+}
+.team_photo{
+    width: 70%;
+    height: 100%;
+}
+.column {
+    float: left;
+    width: 33.33%;
+  }
+.map1{
+    width: 80%;
+}
+
+
+@media all and (max-width: 1900px){
+    nav{
+        width: 100%;
+        clear: both;
+    }
+    .gymlogo{
+        margin-top: 3%;
+        margin-left: 4%;
+        margin-bottom: 3%;
+        width: 12%;
+        float: left;
+    }
+    ul{
+        margin-top: 4%;
+    }
+    .navlist{
+        display: inline;
+    }
+    .navlink{
+        font-size: 2.5em;
+        margin-left: 8%;
+    }
+    
+    .photo{
+        width: 100%;
+        clear: both;
+    }
+    .slogan{
+        font-size: 3em;
+        bottom: 150px;
+    }
+    .start{
+        font-size: 4em;
+        bottom: 100px;
+    }
+    .button{
+        width: 160px;
+        height: 80px;
+        bottom: 20px;
+    }
+    .signup{
+        font-size: 3em;
+    }
+}
+@media all and (max-width: 1200px){
+    nav{
+        width: 100%;
+        clear: both;
+    }
+    .gymlogo{
+        margin-top: 3%;
+        margin-left: 4%;
+        margin-bottom: 3%;
+        width: 12%;
+        float: left;
+    }
+    ul{
+        margin-top: 4%;
+    }
+    .navlist{
+        display: inline;
+    }
+    .navlink{
+        font-size: 1.5em;
+        margin-left: 8%;
+    }
+    
+    .photo{
+        width: 100%;
+        clear: both;
+    }
+    .slogan{
+        font-size: 1.8em;
+        bottom: 110px;
+    }
+    .start{
+        font-size: 2.3em;
+        bottom: 80px;
+    }
+    .button{
+        width: 100px;
+        height: 50px;
+        bottom: 20px;
+    }
+    .signup{
+        font-size: 1.5em;
+    }
+    
+    header{
+        height: 850px;
+    }
+    main{
+        width: 100%;
+        clear: both;
+    }
+    .heading1{
+        font-size: 3.1em;
+    }
+    .altheading{
+        font-size: 2.5em;
+    }
+    .photo_header{
+        clear: both;
+        display: block;
+        width: 100%;
+    }
+    
+    .heading2{
+        font-size: 3.1em;
+    }
+    .text_heading2{
+        font-size: 1.5em;
+        width: 80%;
+    }
+    .offer{
+        height: 450px;
+    }
+    .altheading2{
+        font-size: 1.3em;
+        margin-top: 7%;
+        margin-bottom: 20%;
+    }
+    .offer_list{
+        font-size: 1.3em;
+        margin-top: 10%;
+    }
+    .button1{
+        width: 100px;
+        height: 50px;
+        bottom: 0px;
+        left: 30%;
+    }
+    
+    .heading3{
+        font-size: 2.8em;
+        margin-top: 2%;
+    }
+    .text_heading3{
+        font-size: 1.5em;
+        width: 80%;
+    }
+    
+    .map{
+        width: 100%;
+        clear: both;
+    }
+    footer{
+        font-size: 1.2em;
+        height: auto;
+        overflow: auto;
+    }
+    .right{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .linklogo{
+        width: 15px;
+    }
+
+    .programs_half{
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+    .programs_half1{
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+    .programs_text{
+        font-size: 1.5em;
+        line-height: 140%;
+    }
+    .programs_text1{
+        font-size: 1.5em;
+        line-height: 140%;
+    }
+
+    .nav-page{
+        margin-bottom: 12%;
+    }
+    .navlink1{
+        font-size: 1.8em;
+        margin-left: 5%;
+    }
+    .gymlogo1{
+        width: 15%;
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-bottom: 3%;
+    }
+    .column {
+        clear: both;
+        width: 100%;
+      }
+      .map1{
+        width: 80%;
+        height: 750px;
+      }
+}
+
+@media all and (max-width: 768px){
+    nav{
+        width: 100%;
+        clear: both;
+    }
+    .gymlogo{
+        margin-top: 3%;
+        margin-left: 4%;
+        width: 8%;
+        float: left;
+    }
+    ul{
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .navlist{
+        display: inline;
+    }
+    .navlink{
+        font-size: 1.2em;
+        margin-left: 5%;
+    }
+    
+    .photo{
+        width: 100%;
+        clear: both;
+    }
+    .slogan{
+        font-size: 1.5em;
+        bottom: 100px;
+    }
+    .start{
+        font-size: 2em;
+        bottom: 70px;
+    }
+    .button{
+        width: 80px;
+        height: 40px;
+        bottom: 20px;
+    }
+    .signup{
+        font-size: 1.5em;
+    }
+    
+    header{
+        height: 750px;
+    }
+    main{
+        width: 100%;
+        clear: both;
+    }
+    .heading1{
+        font-size: 2.5em;
+    }
+    .altheading{
+        font-size: 2em;
+    }
+    .photo_header{
+        display: none;
+    }
+    
+    .heading2{
+        font-size: 2.5em;
+    }
+    .text_heading2{
+        font-size: 1.3em;
+        width: 80%;
+    }
+    .offer{
+        height: 350px;
+    }
+    .altheading2{
+        font-size: 1.3em;
+        margin-top: 7%;
+        margin-bottom: 20%;
+    }
+    .offer_list{
+        font-size: 1.3em;
+        margin-top: 10%;
+    }
+    .button1{
+        width: 80px;
+        height: 40px;
+        bottom: 0px;
+        left: 25%;
+    }
+    
+    .heading3{
+        font-size: 2.5em;
+        margin-top: 2%;
+    }
+    .text_heading3{
+        font-size: 1.3em;
+        width: 80%;
+    }
+    
+    .map{
+        width: 100%;
+        clear: both;
+    }
+    iframe{
+        width: 80%;
+        height: 500px;
+    }
+
+    footer{
+        font-size: 1.2em;
+        height: auto;
+        overflow: auto;
+    }
+    .right{
+        margin-top: 7%;
+        margin-bottom: 10%;
+    }
+    .linklogo{
+        width: 15px;
+    }
+
+    .programs_half{
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+    .programs_half1{
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+    .programs_text{
+        font-size: 1.3em;
+        line-height: 140%;
+    }
+    .programs_text1{
+        font-size: 1.3em;
+        line-height: 140%;
+    }
+
+    .nav-page{
+        margin-bottom: 12%;
+    }
+    .navlink1{
+        font-size: 1.2em;
+        margin-left: 5%;
+    }
+    .gymlogo1{
+        width: 15%;
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-bottom: 3%;
+        float: left;
+    }
+    .column {
+        clear: both;
+        width: 100%;
+      }
+      .map1{
+        height: 650px;
+      }
+      .slide_photo{
+        width: 100%;
+      }
+}
+
+@media all and (max-width: 450px){
+    nav{
+        width: 100%;
+        clear: both;
+    }
+    .gymlogo{
+        float: left;
+        margin-top: 2%;
+        margin-left: 4%;
+        width: 50px;
+    }
+    ul{
+        margin-top: 3%;
+    }
+    .navlist{
+        display: inline;
+        margin-bottom: 3%;
+    }
+    .navlink{
+        font-size: 1em;
+        margin-left: 5%;
+    }
+    
+    .photo{
+        width: 100%;
+        clear: both;
+        position: relative;
+    }
+    .slogan{
+        font-size: 1.2em;
+        bottom: 75px;
+        left: 20px;
+    }
+    .start{
+        font-size: 1.5em;
+        bottom: 50px;
+        left: 20px;
+    }
+    .button{
+        width: 60px;
+        height: 30px;
+        bottom: 15px;
+        left: 20px;
+    }
+    .signup{
+        font-size: 1.2em;
+    }
+    
+    header{
+        height: 700px;
+    }
+    main{
+        width: 100%;
+        height: 300px;
+        clear: both;
+    }
+    .heading1{
+        font-size: 2.2em;
+    }
+    .altheading{
+        font-size: 1.7em;
+    }
+    .logo{
+        vertical-align: middle;
+        padding: 3%;
+    }
+    .photo_header{
+        display: none;
+    }
+    
+    .heading2{
+        font-size: 2.2em;
+    }
+    .text_heading2{
+        font-size: 1em;
+        width: 80%;
+    }
+    .offer{
+        height: 250px;
+    }
+    .altheading2{
+        font-size: 1.2em;
+        margin-top: 7%;
+        margin-bottom: 20%;
+    }
+    .offer_list{
+        font-size: 1em;
+        margin-top: 10%;
+    }
+    .button1{
+        width: 60px;
+        height: 30px;
+        bottom: 0px;
+        left: 25%;
+    }
+    
+    .heading3{
+        font-size: 2.2em;
+        margin-top: 2%;
+    }
+    .text_heading3{
+        font-size: 1em;
+        width: 80%;
+    }
+    
+    .map{
+        width: 100%;
+        clear: both;
+    }
+    iframe{
+        width: 80%;
+        height: 100%;
+    }
+
+    footer{
+        font-size: 0.9em;
+        height: auto;
+        overflow: auto;
+    }
+    .right{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .linklogo{
+        width: 15px;
+    }
+
+    .programs_half{
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+    .programs_half1{
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+    .programs_text{
+        font-size: 1em;
+        line-height: 140%;
+    }
+    .programs_text1{
+        font-size: 1em;
+        line-height: 140%;
+    }
+
+    .nav-page{
+        margin-bottom: 12%;
+    }
+    .navlink1{
+        font-size: 0.9em;
+        margin-left: 5%;
+    }
+    .gymlogo1{
+        width: 15%;
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-bottom: 3%;
+    }
+    .column {
+        clear: both;
+        width: 100%;
+      }
+      .map1{
+        height: 400px;
+      }
+      .slide_photo{
+        width: 100%;
+      }
+}
+@media all and (max-width: 400px){
+
+
+    .navlink{
+        font-size: 0.8em;
+        margin-left: 2%;
+    }
+    
+    .slogan{
+        font-size: 1em;
+        bottom: 75px;
+        left: 20px;
+    }
+    .start{
+        font-size: 1.2em;
+        bottom: 50px;
+        left: 20px;
+    }
+    .button{
+        width: 60px;
+        height: 30px;
+        bottom: 15px;
+        left: 20px;
+    }
+    .signup{
+        font-size: 1em;
+    }
+    
+    header{
+        height: 750px;
+    }
+    main{
+        width: 100%;
+        height: 300px;
+        clear: both;
+    }
+    .heading1{
+        font-size: 2em;
+    }
+    .altheading{
+        font-size: 1.4em;
+    }
+    .logo{
+        vertical-align: middle;
+        padding: 3%;
+    }
+    .photo_header{
+        display: none;
+    }
+    
+    .heading2{
+        font-size: 2em;
+    }
+    .text_heading2{
+        font-size: 0.9em;
+        width: 80%;
+    }
+    .offer{
+        height: 200px;
+    }
+    .altheading2{
+        font-size: 0.9em;
+        margin-top: 7%;
+        margin-bottom: 20%;
+    }
+    .offer_list{
+        font-size: 0.8em;
+        margin-top: 10%;
+    }
+    .button1{
+        width: 60px;
+        height: 30px;
+        bottom: 0px;
+        left: 15%;
+    }
+    
+    .heading3{
+        font-size: 2em;
+        margin-top: 2%;
+    }
+    .text_heading3{
+        font-size: 0.9em;
+        width: 80%;
+    }
+    
+    .map{
+        width: 100%;
+        clear: both;
+    }
+    iframe{
+        width: 80%;
+        height: 100%;
+    }
+
+    footer{
+        font-size: 0.9em;
+        height: auto;
+        overflow: auto;
+    }
+    .right{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .linklogo{
+        width: 15px;
+    }
+
+    .programs_half{
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+    .programs_half1{
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+    .programs_text{
+        font-size: 1em;
+        line-height: 140%;
+    }
+    .programs_text1{
+        font-size: 1em;
+        line-height: 140%;
+    }
+
+    .nav-page{
+        margin-bottom: 12%;
+    }
+    .navlink1{
+        font-size: 0.8em;
+        margin-left: 2%;
+    }
+    .gymlogo1{
+        width: 15%;
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-bottom: 3%;
+    }
+    .column {
+        clear: both;
+        width: 100%;
+      }
+      .map1{
+        height: 400px;
+      }
+      .slide_photo{
+        width: 100%;
+      }
+}
